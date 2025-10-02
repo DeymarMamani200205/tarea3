@@ -1,0 +1,72 @@
+*{
+    margin: 5px;
+}
+.padre{
+    background-color: lightgoldenrodyellow;
+    border: 2px solid black;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 7fr 2fr;
+    grid-template-rows: 1fr 3fr 1fr;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+.menu{
+    background-color: lightgray;
+    border: 2px solid black;
+    padding: 5px;
+    grid-column: 1 / 3;
+    grid-row: 1 / 1;
+    padding: 30px;
+    
+}
+.contenido{
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 5px;
+    grid-column: 1 / 2;
+    grid-row: 2 / 2;
+}
+.ads{
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 5px;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+.pie{
+    background-color: lightcoral;
+    border: 2px solid black;
+    padding: 5px;
+    grid-column: 1 / 3;
+    grid-row: 3 / 3;
+}
+h4{
+    text-align: center;
+    color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+#foo{
+    text-align: center;
+    color: darkred;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
